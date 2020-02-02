@@ -1,11 +1,13 @@
-# def capital_leters(napis):
-#     k = []
-#     for i,litera in enumerate (napis):
-#
-#         if  litera.isupper() :
-#             k.append(litera)
-#      return k
-#
+def capital_leters(napis):
+    k = []
+    for i,litera in enumerate (napis):
+
+        if  litera.isupper() :
+            k.append(litera)
+     return k
+capital_leters("Kto tam Jest")
+
+print(k)
 # def
 #
 #
@@ -28,5 +30,4 @@
 
 
 
-s
 

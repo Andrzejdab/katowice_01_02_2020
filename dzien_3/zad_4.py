@@ -49,3 +49,7 @@ def remove_dots(napis):
 
 def test_add_dots():
     assert add_dots("test") == "t.e.s.t"
+    assert add_dots("tes ty") == "t.e.s. .t.y"
+
+def test_remove_dots():
+    assert remove_dots("t.e.s.t") == "test"
